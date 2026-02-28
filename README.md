@@ -114,5 +114,6 @@ npm run dev
 
 Screenshots:
 ![landing page](https://res.cloudinary.com/ds8fnrk7s/image/upload/v1772271641/Screenshot_2026-02-28_151017_xhy8zi.png)
+![dashboard](https://res.cloudinary.com/ds8fnrk7s/image/upload/v1772271587/WhatsApp_Image_2026-02-28_at_2.09.27_PM_ebxcgb.jpg)
 ---
 *Built with ❤️ for the Hackathon.*
