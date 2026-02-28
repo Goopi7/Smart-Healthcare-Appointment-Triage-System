@@ -1,10 +1,10 @@
-# 🏥 Smart Healthcare Appointment & Triage System
+# Smart Healthcare Appointment & Triage System
 
 An intelligent, full-stack healthcare platform designed to automate patient triage, prioritize emergency cases, and streamline hospital queuing. Built for modern medical facilities to cut down wait times and save lives.
 
 ---
 
-## 🚀 Problem Statement
+##  Problem Statement
 
 In crowded emergency rooms, patients are frequently triaged manually, leading to human errors and life-threatening delays. Routine queries often congest the pipeline, causing critical patients to wait longer than they should. **Our solution** automates the initial assessment, identifying emergency keywords (like "chest pain" or "unconscious") to immediately prioritize at-risk individuals and present doctors with a real-time, sorted queue.
 
@@ -37,7 +37,7 @@ In crowded emergency rooms, patients are frequently triaged manually, leading to
 
 ---
 
-## 🏗 Architecture Diagram
+##  Architecture Diagram
 
 ```text
 [ Patient / User ] 
