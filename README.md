@@ -112,5 +112,7 @@ npm run dev
 ```
 *The dashboard will be live at `http://localhost:5173`.*
 
+Screenshots:
+![landing page](https://res.cloudinary.com/ds8fnrk7s/image/upload/v1772271641/Screenshot_2026-02-28_151017_xhy8zi.png)
 ---
 *Built with ❤️ for the Hackathon.*
