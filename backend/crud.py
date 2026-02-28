@@ -59,8 +59,16 @@ def evaluate_triage_level(symptoms: str) -> str:
     symptoms_lower = symptoms.lower()
     
     # Simple keyword-based evaluation for beginner-friendly triage logic
-    emergency_keywords = ['chest pain', 'heart attack', 'bleeding', 'unconscious', 'breathing', 'stroke']
-    urgent_keywords = ['fever', 'fracture', 'broken', 'pain', 'vomiting', 'dizziness']
+    # Medical triage keywords based on established priority levels
+    emergency_keywords = [
+        'airway', 'cardiac arrest', 'respiratory distress', 'unconscious', 
+        'hemorrhage', 'stroke', 'shock', 'convulsion', 'acute mental status', 
+        'trauma', 'head injury', 'chest pain', 'bleeding', 'heart attack', 'breathing'
+    ]
+    urgent_keywords = [
+        'sprain', 'laceration', 'fever', 'dehydration', 'strain', 
+        'fracture', 'broken', 'vomiting', 'dizziness', 'severe pain'
+    ]
     
     for keyword in emergency_keywords:
         if keyword in symptoms_lower:
